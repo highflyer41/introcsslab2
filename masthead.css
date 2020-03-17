@@ -1,0 +1,58 @@
+#logobox {
+    height: 100px;
+    width: 100%;
+    background:black;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    display: block;
+    color: white;
+    font-size: 16;
+    text-align: center;
+    padding: 40;
+    margin: auto;
+}
+#logo {
+    background-color: red;
+    font-size: 35;
+    padding: 30;
+}
+
+.center {
+    float: none;
+}
+#searchbar {
+    margin-top: 1.5%;
+    padding: 8;
+}
+#searchBg {
+    padding: 9 20;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+#searchIcon {
+    padding: 18px;
+    z-index: 5;
+    width: 15px;
+    filter: invert(1);
+    position: absolute;
+    top: 2.5%;
+    left: 48%;
+}
+
+.right {
+    padding: 9;
+    float: right;
+    font-size: 16;
+    color: white;
+}
+#cartIcon {
+    filter: invert(1);
+    width: 30;
+}
